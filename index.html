@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--bootstrap css files-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!--css main file-->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>COVID-19 API</title>
+  </head>
+  <body class="bg-light">
+    <!--start choose country section-->
+    <section class="container">
+      <main class="row mt-5 justify-content-center">
+        <div class="col-10">
+          <!--start choose country main title-->
+          <h1 class="text-center mb-5 text-capitalize">
+            covid-19 cases checker
+          </h1>
+          <h3 class="text-center mb-5">choose a country!</h3>
+          <!--end choose country main title-->
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control my_input"
+              placeholder="please enter a country name like 'Egypt'"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+          <!--end choose country section-->
+          <!--start button section-->
+          <div class="d-grid gap-2 mt-4">
+            <button class="btn btn-light my_btn fw-bold" type="button">
+              show country's case statistics!
+            </button>
+          </div>
+          <!--end button section-->
+        </div>
+        <!--start showing data slices-->
+        <div
+          class="col-10 row text-center mt-5 text-secondary justify-content-evenly my_div_container"
+        ></div>
+      </main>
+    </section>
+    <!--end choose country section-->
+    <!--bootstrap js files-->
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--js main file-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
